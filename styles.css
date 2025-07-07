@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+}
+
+.cards, .hands {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.hand, #card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.card {
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #2e2e2e;
+  border-radius: 6px;
+}
+
+.card:hover {
+  background-color: #444;
+}
+
+#counter {
+  font-size: 24px;
+  margin: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3a3aff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2a2ad1;
+}
